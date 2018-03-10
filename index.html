@@ -5,64 +5,131 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HTML/CSS Code Snippets</title>
 <style>
-body {
-    background-color: light-lime;
-}
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rammetto+One');
+    body {
+        background-color: light-lime;
+	font-family: 'Open Sans', sans-serif;
+	padding: 5px 13em;
+	}
+    h1, h2 {
+	font-family: 'Rammetto One', cursive;
+	}
 </style>
 
 </head>
 
 <body>
-    <h1 id='top'>HTML/CSS Code Snippets</h1>
+	<h1>HTML/CSS Example Code Snippets</h1>
     <h2 id=''>Contents</h2>
     <ol>
-        <li><a href='#background-images'>Background images</a></li>
-        <li><a href='#FlexNav'>Flexible Navigation</a></li>
-        <li><a href='#RoundCorners'>Round Corners on Borders</a></li>
-        <li><a href='#Tables'>Tables</a></li>
-        <li><a href='#GoogleFonts'>Google Fonts</a></li>
-        <li><a href='#CSSFiles'>CSS Files</a></li>
-        <li><a href='#FloatingImages'>Floating Images</a></li>
-        <li><a href='#Columns+Rows'>Responsive Columns and Rows</a></li>
-        <li><a href='#FlexOrdering'>Flexible ordering</a></li>
-        <li><a href='#youtube'>YouTube Videos</a></li>
-        <li><a href='#GoogleMaps'>Google Maps</a></li>
-        <li><a href='#NavigationReaction'>Navigation Reaction</a></li>
+        <li><a href='#CSSFiles'>CSS Files</a> - essential</li>
+        <li><a href='#GoogleFonts'>Google Fonts</a> - likely</li>
+        <li><a href='#youtube'>YouTube Videos</a> - essential</li>
+        <li><a href='#GoogleMaps'>Google Maps</a> - recommended</li>
+        <li><a href='#background-images'>Background images</a> - optional</li>
+        <li><a href='#NavigationReaction'>Navigation Reaction</a> - essential</li>
+        <li><a href='#FlexNav'>Flexible Navigation</a> - likely</li>
+        <li><a href='#RoundCorners'>Round Corners on Borders</a> - optional</li>
+        <li><a href='#Tables'>Tables</a> - essential</li>
+        <li><a href='#FloatingImages'>Floating Images</a> - optional</li>
+        <li><a href='#Columns+Rows'>Responsive Columns and Rows</a> - likely</li>
+        <li><a href='#FlexOrdering'>Flexible ordering</a> - optional</li>
     </ol>
+    <p>Remember! Code snippets will use different IDs and classes to your code.
+    You will need to name these suitably yourself in your code.</p>
+    <p>Try using <a href='https://trinket.io' target='_blank'>Trinket</a> yourself.
+    This will enable you to check elements of your site in isolation to 
+    avoid or identify errors.</p>
+    <p>The code below has comments in it to explain key parts. These comments
+    appear in green in the snippet. Comments are useful in your code also.
+    Use them. Notice that HTML comments have a different syntax to CSS.
+    If you add comments, it will be easier to remember what you code is
+    aiming to achieve, and therefore identify problems later.</p>
+    <p>Notice how code is intended. This makes it easier to read the code.
+    It is essential for you to indent code. It won't stop it working.
+    It will make it easier to find problems.</p>
+    <p>When planning your responsive design, you may want to find
+    your browser size - use 
+    <a href='http://howbigismybrowser.com/' target='_blank'>
+	    http://howbigismybrowser.com/</a> to help you!</p>
     <h2 id='background-images'>Background images</h2>
+        <p>Fairly obvious, this shows how to add a background image.
+	Look out how to fit the image to the background of the window.</p>
+	<p>Watch what hapens when the page needs to scroll. Make
+	sure that you achieve the effect you desire.</p>
+	<p>You may have to consider the image used carefully for
+	appropriate aspect ratio. Also; remember that images take
+	time to download!</p>
+	<p>Resize the preview window to see the effect.</p>
         <iframe src="https://trinket.io/embed/html/10b22feca5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='FlexNav'>Flexible Navigation</h2>
+        <p>See how you can get the nav bar go from horizontal (for desktops)
+	to vertical (mobile)</p>
+	<p>Move the Trinket preview to see what happens</p>
         <iframe src="https://trinket.io/embed/html/89d98dec5c" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='RoundCorners'>Round Corners on Borders</h2>
+        <p>Want rounded corners for your shapes? Here's how...</p>
         <iframe src="https://trinket.io/embed/html/262fd049ea" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='Tables'>Tables</h2>
+    <p>Make sure that you include a table on one of your pages. Ticket
+    prices would be an idea to do this</p>
         <iframe src="https://trinket.io/embed/html/1a124fde74" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='GoogleFonts'>Google Fonts</h2>
+    	<p>Make sure that the site shows the font you want. You cannot
+	guarantee the device the user is viewing your page on unless you
+	use a font embedding service like Google Fonts (there are others).</p>
         <iframe src="https://trinket.io/embed/html/5d560dbecb" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='CSSFiles'>CSS Files</h2>
+	<p>Make sure that you use external CSS file(s). This simplfies
+  	code when creating consistent looking pages.</p>
+	<p>Look at the <strong>style.css</strong> tab in this example.</p>
         <iframe src="https://trinket.io/embed/html/60c9823b80" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='FloatingImages'>Floating Images</h2>
+        <p>You can get text to wrap and flow around images by floating the
+	image</p>
         <iframe src="https://trinket.io/embed/html/e44d9d98e1" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='Columns+Rows'>Responsive Columns and Rows</h2>
+        <p>You may want to have an image on the right of some content for
+	your desktop version, but underneath the text for mobiles. This is
+	how to achieve that. Drag the Trinket preview to see how this works</p>
         <iframe src="https://trinket.io/embed/html/a90a57fcf4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='FlexOrdering'>Flexible ordering</h2>
+        <p>When moving from column based layout to row based (and vice versa)
+	you may need to reorder the content so the semantics of the page
+	remains. Check this code out - remember to drag the Trinker preview
+	divider to see the effect</p>
         <iframe src="https://trinket.io/embed/html/ed26f8a190" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='youtube'>YouTube Videos</h2>
+       <p>This shows how to embed a YouTube video in a responsive manner.
+       You will need to copy the embed code from the video, then strip out
+       the height and width attributes from inside the iframe tag. When this
+       info goes into your CSS you can control the width using the @media 
+       option</p>
         <iframe src="https://trinket.io/embed/html/9d5eb00f1b" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='GoogleMaps'>Google Maps</h2>
+       <p>This shows how to embed a Google Map in a responsive manner.
+       You will need to copy the embed code from the map, then strip out
+       the height and width attributes from inside the iframe tag. When this
+       info goes into your CSS you can control the width using the @media 
+       option</p>
         <iframe src="https://trinket.io/embed/html/0d2d1793a1" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
     <h2 id='NavigationReaction'>Navigation Reaction</h2>
+        <p>Change how your navigation buttons react with this example code.
+	Make sure that you test out what happens when you roll your mouse
+	over the buttons (this is the hover state). Also, what colour does
+	the button go to when the mouse button is down (the active state)?
+	</p>
         <iframe src="https://trinket.io/embed/html/c033f8aae7" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
         <p><a href='#top'>top</a></p>
 </body>
